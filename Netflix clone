@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix - Watch TV Shows & Movies Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #e50914;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    nav a:hover {
+      background-color: #d30813;
+    }
+
+    .hero {
+      background-image: url('your-image-url.jpg');
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 36px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      margin: 0;
+    }
+
+    .footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Netflix</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">TV Shows</a>
+    <a href="#">Movies</a>
+    <a href="#">Latest</a>
+    <a href="#">My List</a>
+    <a href="#">Account</a>
+    <a href="#">Setting</a>
+  </nav>
+
+  <div class="hero">
+    <h2> Watch TV shows & movies anytime, anywhere.</h2>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h2>Popular TV Shows</h2>
+      <p> CLASS , SHE , 1899 , ...</p>
+    </div>
+
+    <div class="section">
+      <h2>Popular Movies</h2>
+      <p>Blood Red Sky , Adam Driver 65 , TWO , ...</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Netflix Clone - &copy; 2023</p>
+  </div>
+</body>
+</html>
